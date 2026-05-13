@@ -287,4 +287,4 @@ ml_plot4_decision_tree.png
 
 **About te Author:**
 Name : Raksihitha V
-📌 GitHub  : https://github.com/rakshitha0112/student-performance-analysis
+📌 GitHub  : [https://github.com/rakshitha0112/student-performance-analysis](https://github.com/rakshitha01-a11y/Student-Performance-Analysis/tree/main)
