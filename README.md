@@ -85,39 +85,6 @@ The goal of this project is to:
 
 ---
 
-## 🚀 How to Run This Project (Step by Step)
-
-### Step 1 — Open Google Colab
-- Go to 👉 https://colab.research.google.com
-- Click **"New Notebook"**
-
-### Step 2 — Install Required Libraries
-- Copy and run this in the first cell:
-```python
-!pip install pandas numpy matplotlib seaborn scikit-learn scipy plotly wordcloud missingno
-```
-
-### Step 3 — Upload Your Dataset
-- Copy and run this in the next cell:
-```python
-from google.colab import files
-uploaded = files.upload()
-```
-- A **"Choose Files"** button will appear
-- Click it and upload **student-mat.csv** from your computer
-
-### Step 4 — Copy the Project Code
-- Open the file **student_full_project.py**
-- Copy each cell one by one into Colab
-- Press **Shift + Enter** to run each cell
-
-### Step 5 — See the Results
-- Charts will appear below each cell
-- Model accuracy scores will be printed
-- All plots will be saved as PNG files
-
----
-
 ## 📊 Complete List of All 34 Plots
 
 ### 🔵 Seaborn Plots (20 Plots)
@@ -318,8 +285,6 @@ ml_plot4_decision_tree.png
 - **Difficulty** : Beginner to Intermediate
 - **Time to Run**: Approximately 5–10 minutes
 
----
-
-*This project was built to demonstrate complete data science skills including
-data loading, cleaning, visualization, statistical analysis, and machine learning
-model building and evaluation.*
+**About te Author:**
+Name : Raksihitha V
+📌 GitHub  : https://github.com/rakshitha0112/student-performance-analysis
