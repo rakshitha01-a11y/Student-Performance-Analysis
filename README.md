@@ -85,10 +85,12 @@ The goal of this project is to:
 
 ---
 
-## 📊 Complete List of All 34 Plots
+## 📊 Complete List of plots which i have used in this project :
+1.Seaborn plots
+2.Matplotlib plots
+3.Machine learning plots
 
-### 🔵 Seaborn Plots (20 Plots)
-
+1.
 | Plot No. | Plot Type | What It Shows | Why It Is Useful |
 |---|---|---|---|
 | 1 | **Histplot** | How G1, G2, G3 grades are distributed | Shows if most students score high or low |
@@ -114,20 +116,13 @@ The goal of this project is to:
 
 ---
 
-### 🟠 Matplotlib Plots (4 Plots)
-
+2.
 | Plot No. | Plot Type | What It Shows |
 |---|---|---|
 | 1 | **Pie Charts** | Percentage breakdown of 6 categories (gender, address, internet etc.) |
 | 2 | **Stacked Bar** | Grade categories (Fail/Average/Good/Excellent) by gender & study time |
 | 3 | **Bubble Chart** | Study time vs grade where bubble size = number of absences |
 | 4 | **Full Dashboard** | 8 different charts combined into one big overview image |
-
----
-
-### 🟢 Extra Plots (6 Plots)
-
-| Plot No. | Tool | Plot Type | What It Shows |
 |---|---|---|---|
 | 1 | Plotly | Interactive Scatter | Hover over points to see student details |
 | 2 | Plotly | Interactive Box | Compare grade distributions interactively |
@@ -138,32 +133,13 @@ The goal of this project is to:
 
 ---
 
-### 🔴 Machine Learning Plots (4 Plots)
-
+3.
 | Plot No. | What It Shows |
 |---|---|
 | 1 | **Model Comparison** — bar chart comparing accuracy of all 7 models |
 | 2 | **Confusion Matrix + ROC Curves** — how well each model predicts pass/fail |
 | 3 | **Feature Importance** — which features matter most for prediction |
 | 4 | **Decision Tree** — visual tree showing exactly how the model makes decisions |
-
----
-
-## 🤖 Machine Learning Models Explained
-
-This project builds **7 different ML models** to predict if a student will **Pass (G3 >= 10)
-or Fail (G3 < 10)**.
-
-| Model | How It Works (Simple Explanation) |
-|---|---|
-| **Linear Regression** | Draws a straight line through the data to predict grade numbers |
-| **Logistic Regression** | Calculates probability of pass or fail using a curve |
-| **Random Forest** | Creates 100 decision trees and takes majority vote |
-| **KNN (K-Nearest Neighbors)** | Looks at 5 most similar students and predicts same outcome |
-| **SVM (Support Vector Machine)** | Draws the best boundary line between pass and fail groups |
-| **Naive Bayes** | Uses probability rules to classify pass or fail |
-| **Decision Tree** | Asks yes/no questions step by step like a flowchart |
-| **Gradient Boosting** | Builds models one by one, each fixing previous model's mistakes |
 
 ---
 
@@ -194,96 +170,13 @@ or Fail (G3 < 10)**.
 
 ## 📁 Output Files Generated
 
-After running the full project, these files will be saved:
-
-```
-seaborn_plot1_histplot.png
-seaborn_plot2_kdeplot.png
-seaborn_plot3_rugplot.png
-seaborn_plot4_boxplot.png
-seaborn_plot5_violinplot.png
-seaborn_plot6_barplot.png
-seaborn_plot7_countplot.png
-seaborn_plot8_scatterplot.png
-seaborn_plot9_lineplot.png
-seaborn_plot10_heatmap.png
-seaborn_plot11_pairplot.png
-seaborn_plot12_regplot.png
-seaborn_plot13_strip_swarm.png
-seaborn_plot14_boxenplot.png
-seaborn_plot15_pointplot.png
-seaborn_plot16_ecdfplot.png
-seaborn_plot17_clustermap.png
-seaborn_plot18_facetgrid.png
-seaborn_plot19_residplot.png
-seaborn_plot20_lmplot.png
-matplotlib_plot1_pie.png
-matplotlib_plot2_stacked_bar.png
-matplotlib_plot3_bubble.png
-matplotlib_plot4_dashboard.png
-extra_plot5_missingno.png
-extra_plot6_wordcloud.png
-ml_plot1_model_comparison.png
-ml_plot2_cm_roc.png
-ml_plot3_feature_actual.png
-ml_plot4_decision_tree.png
-```
-
----
-
-## 👩‍💻 Project Structure
-
-```
-📦 Student Performance Project
-├── 📄 student-mat.csv          ← Raw dataset (upload this to Colab)
-├── 📄 student_full_project.py  ← Complete Python code
-├── 📄 README.md                ← This file (project documentation)
-└── 📁 Output Plots             ← All 30 chart images saved here
-```
-
----
-
-## 💡 Tips for Non-Coding People
-
-> **What is a histogram?**
-> It shows how many students got each grade. Tall bars mean many students got that score.
-
-> **What is a heatmap?**
-> It is a color-coded table. Dark red means strong positive relationship.
-> Dark blue means strong negative relationship. White means no relationship.
-
-> **What is machine learning?**
-> We give the computer examples of students who passed and failed.
-> The computer learns the pattern and can then predict for new students.
-
-> **What is accuracy?**
-> If accuracy is 85%, the model correctly predicted pass/fail for 85 out of 100 students.
-
-> **What is a confusion matrix?**
-> A table that shows how many predictions were correct and how many were wrong.
-
----
-
-## 🏆 Why This Project is Good for Job Applications
-
-- ✅ Uses **real-world educational dataset**
-- ✅ Covers complete **data science pipeline** (Load → Clean → Visualize → Model → Evaluate)
-- ✅ Demonstrates knowledge of **20 Seaborn plots**
-- ✅ Shows **statistical testing skills** (T-test, ANOVA, Chi-Square)
-- ✅ Builds and compares **7 ML models**
-- ✅ Uses **interactive visualization** with Plotly
-- ✅ Includes **feature engineering** (created new columns)
-- ✅ Well-structured and **fully commented code**
-
 ---
 
 ## 📞 About This Project
 
 - **Dataset** : UCI Machine Learning Repository — Student Performance Dataset
 - **Language** : Python 3.x
-- **Platform** : Google Colab (Free)
-- **Difficulty** : Beginner to Intermediate
-- **Time to Run**: Approximately 5–10 minutes
+- **Platform** : Google Colab
 
 **About te Author:**
 Name : Raksihitha V
