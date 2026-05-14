@@ -284,6 +284,12 @@ This project demonstrates practical skills in:
 
 GitHub:
 [ https://github.com/rakshitha01-a11y/Student-Performance-Analysis ]
+
+Project Link:
+[ https://github.com/rakshitha01-a11y/Student-Performance-Analysis/blob/main/studentperformanceprediction.ipynb ]
+
+CSV File Link:
+[  ]
 ---
 
 # ⭐ Project Highlights
