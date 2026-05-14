@@ -283,7 +283,7 @@ This project demonstrates practical skills in:
 # 🔗 GitHub Repository
 
 GitHub:
-
+[ https://github.com/rakshitha01-a11y/Student-Performance-Analysis ]
 ---
 
 # ⭐ Project Highlights
