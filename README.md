@@ -290,6 +290,9 @@ Project Link:
 
 CSV File Link:
 [ https://github.com/rakshitha01-a11y/Student-Performance-Analysis/blob/main/student-mat.csv ]
+
+Collab link:
+[ https://colab.research.google.com/drive/11JRMBGRU98gnfO0rH9KKLuHX9w9qMjGt#scrollTo=Wbz_IGe0yfAH ]
 ---
 
 # ⭐ Project Highlights
